@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#expense-form input, #expense-form select, #expense-form button {
+    margin: 5px;
+    padding: 10px;
+    width: calc(100% - 22px); /* Full width minus padding */
+}
+
+#reward-display {
+    font-size: 1.5em;
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+
+.bounce {
+    transform: translateY(-10px);
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart {
+    margin: 20px 0;
+    max-width: 100%; /* Responsive canvas */
+    height: auto;    /* Maintain aspect ratio */
+    display: block;  /* Center the chart */
+    max-height: 200px; /* Limit height */
+}
+
+h2 {
+    margin-top: 30px;
+}
